@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch4-11-25-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>my2ndflow</internal_name>
+        <label_cache>[{"name":"ed14e65d-af26-40d6-bc56-f97f48679734.returnval","label":"2➛Return Value","reference_display":"Return Value","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"ed14e65d-af26-40d6-bc56-f97f48679734.result","label":"2➛Result","reference_display":"Result","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"ed14e65d-af26-40d6-bc56-f97f48679734.context","label":"2➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"ed14e65d-af26-40d6-bc56-f97f48679734.state","label":"2➛State","reference_display":"State","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"05b7f30a-25c6-4e19-a06a-e33ba7b69e72.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"05b7f30a-25c6-4e19-a06a-e33ba7b69e72.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>b42ce3a3dbe1a010761062cbd3961902</latest_snapshot>
+        <master_snapshot>42116febdb21a010349471f6f39619ef</master_snapshot>
+        <name>my2ndflow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>ce11afebdb21a010349471f6f3961902</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:07:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8ee172bdb21a010349471f6f3961946</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>my2ndflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_d8ee172bdb21a010349471f6f3961946</sys_update_name>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d8ee172bdb21a010349471f6f3961946"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d8ee172bdb21a010349471f6f3961946"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period>1970-01-01 00:06:01</run_period>
+        <run_start>2021-01-13 06:17:09</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce11afebdb21a010349471f6f3961902</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <time/>
+        <timer_type>1</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:ce11afebdb21a010349471f6f3961902</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">rudey.yao@snc</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1970-01-01 00:06:01</run_period>
+        <run_start>2021-01-13 06:17:09</run_start>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('ce11afebdb21a010349471f6f3961902');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:09</sys_created_on>
+        <sys_id>8611afebdb21a010349471f6f3961903</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name/>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">ce11afebdb21a010349471f6f3961902</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_hub_flow_component action="delete_multiple" query="flow=d8ee172bdb21a010349471f6f3961946^sys_idNOT IN553f5f2bdb21a010349471f6f396194b,c5d96ba7db61a010349471f6f3961994"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="my2ndflow">d8ee172bdb21a010349471f6f3961946</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:08:54</sys_created_on>
+        <sys_id>553f5f2bdb21a010349471f6f396194b</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:05:23</sys_updated_on>
+        <ui_id>05b7f30a-25c6-4e19-a06a-e33ba7b69e72</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=553f5f2bdb21a010349471f6f396194b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>553f5f2bdb21a010349471f6f396194b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:08:54</sys_created_on>
+        <sys_id>953f5f2bdb21a010349471f6f396194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:10:52</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>553f5f2bdb21a010349471f6f396194b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:08:54</sys_created_on>
+        <sys_id>d13f5f2bdb21a010349471f6f396194d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:14:16</sys_updated_on>
+        <value>short_description=This is from Flow Designer^priority=3^work_notes=Hello World!^u_when_needed=2021-01-14 01:00:00^u_requested_for_email=rudey.yao@servicenow.com</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4dd96ba7db61a010349471f6f3961993</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="my2ndflow">d8ee172bdb21a010349471f6f3961946</flow>
+        <inputs/>
+        <logic_definition display_value="Call a Workflow">e6edace2733203006715b45a4cf6a7b2</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:55:18</sys_created_on>
+        <sys_id>c5d96ba7db61a010349471f6f3961994</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <ui_id>ed14e65d-af26-40d6-bc56-f97f48679734</ui_id>
+        <workflow_inputs/>
+        <workflow_reference display_value="do nothing workflow">39b967a7db61a010349471f6f39619ed</workflow_reference>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c5d96ba7db61a010349471f6f3961994"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c5d96ba7db61a010349471f6f3961994</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:55:18</sys_created_on>
+        <sys_id>85d96ba7db61a010349471f6f3961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:55:18</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4aa624e8734303006715b45a4cf6a785</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c5d96ba7db61a010349471f6f3961994</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 07:00:24</sys_created_on>
+        <sys_id>fffa672bdb61a010349471f6f3961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:00:24</sys_updated_on>
+        <value>Hoody!</value>
+        <variable display_value="">402a23e7db61a010349471f6f39619e6</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d8ee172bdb21a010349471f6f3961946^sys_idNOT INefee972bdb21a010349471f6f39619ad"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="my2ndflow">d8ee172bdb21a010349471f6f3961946</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:07:41</sys_created_on>
+        <sys_id>efee972bdb21a010349471f6f39619ad</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=efee972bdb21a010349471f6f39619ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>efee972bdb21a010349471f6f39619ad</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:07:41</sys_created_on>
+        <sys_id>67ee972bdb21a010349471f6f39619ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:03</sys_updated_on>
+        <value>1970-01-01 00:06:01</value>
+        <variable display_value="">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d8ee172bdb21a010349471f6f3961946^sys_idNOT IN10ee172bdb21a010349471f6f3961948"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d8ee172bdb21a010349471f6f3961946</id>
+        <name>my2ndflow</name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:07:28</sys_created_on>
+        <sys_id>10ee172bdb21a010349471f6f3961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:07:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d8ee172bdb21a010349471f6f3961946^sys_idNOT IN553f5f2bdb21a010349471f6f396194b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="my2ndflow">d8ee172bdb21a010349471f6f3961946</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:08:54</sys_created_on>
+        <sys_id>553f5f2bdb21a010349471f6f396194b</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:05:23</sys_updated_on>
+        <ui_id>05b7f30a-25c6-4e19-a06a-e33ba7b69e72</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=553f5f2bdb21a010349471f6f396194b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>553f5f2bdb21a010349471f6f396194b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:08:54</sys_created_on>
+        <sys_id>953f5f2bdb21a010349471f6f396194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:10:52</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>553f5f2bdb21a010349471f6f396194b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:08:54</sys_created_on>
+        <sys_id>d13f5f2bdb21a010349471f6f396194d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:14:16</sys_updated_on>
+        <value>short_description=This is from Flow Designer^priority=3^work_notes=Hello World!^u_when_needed=2021-01-14 01:00:00^u_requested_for_email=rudey.yao@servicenow.com</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=553f5f2bdb21a010349471f6f396194b^sys_idNOT IN153f5f2bdb21a010349471f6f396194c"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>553f5f2bdb21a010349471f6f396194b</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":false,"savedValue":""}}</script>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:08:54</sys_created_on>
+        <sys_id>153f5f2bdb21a010349471f6f396194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:08:54</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d8ee172bdb21a010349471f6f3961946^sys_idNOT INc5d96ba7db61a010349471f6f3961994"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4dd96ba7db61a010349471f6f3961993</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="my2ndflow">d8ee172bdb21a010349471f6f3961946</flow>
+        <inputs/>
+        <logic_definition display_value="Call a Workflow">e6edace2733203006715b45a4cf6a7b2</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:55:18</sys_created_on>
+        <sys_id>c5d96ba7db61a010349471f6f3961994</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <ui_id>ed14e65d-af26-40d6-bc56-f97f48679734</ui_id>
+        <workflow_inputs/>
+        <workflow_reference display_value="do nothing workflow">39b967a7db61a010349471f6f39619ed</workflow_reference>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c5d96ba7db61a010349471f6f3961994"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c5d96ba7db61a010349471f6f3961994</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:55:18</sys_created_on>
+        <sys_id>85d96ba7db61a010349471f6f3961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:55:18</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4aa624e8734303006715b45a4cf6a785</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c5d96ba7db61a010349471f6f3961994</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 07:00:24</sys_created_on>
+        <sys_id>fffa672bdb61a010349471f6f3961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:00:24</sys_updated_on>
+        <value>Hoody!</value>
+        <variable display_value="">402a23e7db61a010349471f6f39619e6</variable>
+    </sys_variable_value>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d8ee172bdb21a010349471f6f3961946^sys_idNOT IN9611afebdb21a010349471f6f3961906"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9611afebdb21a010349471f6f3961906","name":"plan"}}</plan>
+        <plan_id>d8ee172bdb21a010349471f6f3961946</plan_id>
+        <snapshot>b42ce3a3dbe1a010761062cbd3961902</snapshot>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9611afebdb21a010349471f6f3961906</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:01:48</sys_updated_on>
+        <trigger display_value="">ce11afebdb21a010349471f6f3961902</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>my2ndflow</internal_name>
+        <label_cache>[{"name":"ed14e65d-af26-40d6-bc56-f97f48679734.returnval","label":"2➛Return Value","reference_display":"Return Value","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"ed14e65d-af26-40d6-bc56-f97f48679734.result","label":"2➛Result","reference_display":"Result","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"ed14e65d-af26-40d6-bc56-f97f48679734.context","label":"2➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"ed14e65d-af26-40d6-bc56-f97f48679734.state","label":"2➛State","reference_display":"State","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"05b7f30a-25c6-4e19-a06a-e33ba7b69e72.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"05b7f30a-25c6-4e19-a06a-e33ba7b69e72.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>my2ndflow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="my2ndflow">d8ee172bdb21a010349471f6f3961946</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42116febdb21a010349471f6f39619ef</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=42116febdb21a010349471f6f39619ef"/>
+    <sys_variable_value action="delete_multiple" query="document_key=42116febdb21a010349471f6f39619ef"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=42116febdb21a010349471f6f39619ef^sys_idNOT IN405b2f2bdb61a010349471f6f396190a,8a116febdb21a010349471f6f39619f5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4dd96ba7db61a010349471f6f3961993</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="my2ndflow">42116febdb21a010349471f6f39619ef</flow>
+        <inputs/>
+        <logic_definition display_value="Call a Workflow">e6edace2733203006715b45a4cf6a7b2</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 07:01:47</sys_created_on>
+        <sys_id>405b2f2bdb61a010349471f6f396190a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <ui_id>ed14e65d-af26-40d6-bc56-f97f48679734</ui_id>
+        <workflow_inputs/>
+        <workflow_reference display_value="do nothing workflow">39b967a7db61a010349471f6f39619ed</workflow_reference>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=405b2f2bdb61a010349471f6f396190a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>405b2f2bdb61a010349471f6f396190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 07:01:47</sys_created_on>
+        <sys_id>4c5b2f2bdb61a010349471f6f396190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:01:47</sys_updated_on>
+        <value>Hoody!</value>
+        <variable display_value="">402a23e7db61a010349471f6f39619e6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>405b2f2bdb61a010349471f6f396190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 07:01:47</sys_created_on>
+        <sys_id>885b2f2bdb61a010349471f6f396190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:01:47</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4aa624e8734303006715b45a4cf6a785</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="my2ndflow">42116febdb21a010349471f6f39619ef</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>8a116febdb21a010349471f6f39619f5</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <ui_id>05b7f30a-25c6-4e19-a06a-e33ba7b69e72</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8a116febdb21a010349471f6f39619f5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a116febdb21a010349471f6f39619f5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>06116febdb21a010349471f6f39619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:17:08</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a116febdb21a010349471f6f39619f5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>42116febdb21a010349471f6f39619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:17:08</sys_updated_on>
+        <value>short_description=This is from Flow Designer^priority=3^work_notes=Hello World!^u_when_needed=2021-01-14 01:00:00^u_requested_for_email=rudey.yao@servicenow.com</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=42116febdb21a010349471f6f39619ef^sys_idNOT IN0a116febdb21a010349471f6f39619f7"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="my2ndflow">42116febdb21a010349471f6f39619ef</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>0a116febdb21a010349471f6f39619f7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0a116febdb21a010349471f6f39619f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>0a116febdb21a010349471f6f39619f7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>8e116febdb21a010349471f6f39619f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:08</sys_updated_on>
+        <value>1970-01-01 00:06:01</value>
+        <variable display_value="">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=42116febdb21a010349471f6f39619ef^sys_idNOT IN0a116febdb21a010349471f6f39619ef"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>42116febdb21a010349471f6f39619ef</id>
+        <name>my2ndflow</name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>0a116febdb21a010349471f6f39619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:17:08</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=42116febdb21a010349471f6f39619ef^sys_idNOT IN8a116febdb21a010349471f6f39619f5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="my2ndflow">42116febdb21a010349471f6f39619ef</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>8a116febdb21a010349471f6f39619f5</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <ui_id>05b7f30a-25c6-4e19-a06a-e33ba7b69e72</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8a116febdb21a010349471f6f39619f5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a116febdb21a010349471f6f39619f5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>06116febdb21a010349471f6f39619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:17:08</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a116febdb21a010349471f6f39619f5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>42116febdb21a010349471f6f39619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:17:08</sys_updated_on>
+        <value>short_description=This is from Flow Designer^priority=3^work_notes=Hello World!^u_when_needed=2021-01-14 01:00:00^u_requested_for_email=rudey.yao@servicenow.com</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8a116febdb21a010349471f6f39619f5^sys_idNOT IN0a116febdb21a010349471f6f39619f6"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>8a116febdb21a010349471f6f39619f5</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":false,"savedValue":""}}</script>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 06:17:08</sys_created_on>
+        <sys_id>0a116febdb21a010349471f6f39619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 06:17:08</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=42116febdb21a010349471f6f39619ef^sys_idNOT IN405b2f2bdb61a010349471f6f396190a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4dd96ba7db61a010349471f6f3961993</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="my2ndflow">42116febdb21a010349471f6f39619ef</flow>
+        <inputs/>
+        <logic_definition display_value="Call a Workflow">e6edace2733203006715b45a4cf6a7b2</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 07:01:47</sys_created_on>
+        <sys_id>405b2f2bdb61a010349471f6f396190a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:02:09</sys_updated_on>
+        <ui_id>ed14e65d-af26-40d6-bc56-f97f48679734</ui_id>
+        <workflow_inputs/>
+        <workflow_reference display_value="do nothing workflow">39b967a7db61a010349471f6f39619ed</workflow_reference>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=405b2f2bdb61a010349471f6f396190a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>405b2f2bdb61a010349471f6f396190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 07:01:47</sys_created_on>
+        <sys_id>4c5b2f2bdb61a010349471f6f396190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:01:47</sys_updated_on>
+        <value>Hoody!</value>
+        <variable display_value="">402a23e7db61a010349471f6f39619e6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>405b2f2bdb61a010349471f6f396190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rudey.yao@snc</sys_created_by>
+        <sys_created_on>2021-01-13 07:01:47</sys_created_on>
+        <sys_id>885b2f2bdb61a010349471f6f396190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudey.yao@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 07:01:47</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4aa624e8734303006715b45a4cf6a785</variable>
+    </sys_variable_value>
+</record_update>
